@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>It's Game Time!</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script type="text/javascript" src="invasionscript.js"></script>
+	<link rel='stylesheet' type='text/css' href='../stylesheet.css'/>
+</head>
+<body>
+	<div id="s1">
+		<p>Oh dear. It looks like that invasion just escalated things.</p>
+		<button id="nextB" onclick="revealNext(2, 1)">Surprise, surprise...</button>
+	</div>
+	<div id="s2">
+		<p>The enemy has set up camp just outside the Hiren capital.</p>
+		<button id="nextB" onclick="revealNext(3, 1)">Hah! They won't stand a chance!</button>
+	</div>
+	<div id="s3">
+	<p>Luckily, it looks like all the big wigs have arrived too.</p>
+	<button id="nextB" onclick="revealNext(4, 1)">Mwhahahahha</button>
+	</div>
+	<div id="s4">
+	<p>You can end this whole war by taking down that camp. Just make sure you don't hit the llamas roaming around!</p>
+	<button id="nextB" onclick="toNextGame()">To the Final Battle!</button>
+	</div>
+</body>
+</html>

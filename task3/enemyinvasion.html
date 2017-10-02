@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>It's Game Time!</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<link rel='stylesheet' type='text/css' href='../stylesheet.css'/>
+</head>
+<body>
+	<canvas id="myCanvas" width="520" height="480"></canvas>
+	<script type="text/javascript" src="invasionscript.js"></script>
+	<div id="s2">
+		<p>Congratulations! You took down the camp and saved Hiren once and for all!</p>
+		<button id="nextB" onclick="revealNext(3, 2)">Why, you're welcome...</button>
+	</div>
+	<div id="s3">
+		<p>You will always be remembered as Hiren's triumphant leader, regardless of your previous blunders.</p>
+		<button id="nextB" onclick="revealNext(4, 2)">Of course, my epicness is fathomless</button>
+	</div>
+	<div id="s4">
+		<p>You will be missed, young Gamer who may still be a llama.</p>
+		<button id="nextB" onclick="toEnd()">I'll miss you too, O Great GameMaster</button>
+	</div>
+	<div id="s5">
+		<p>Darn. You weren't able to save Hiren after all. Now you'll always be known as the Llama Killer.</p>
+		<button id="nextB" onclick="revealNext(6, 2)">Wow I suck...</button>
+	</div>
+	<div id="s6">
+		<p>Your previous triumps don't matter and your kingdom will never recover from this disappointment.</p>
+		<button id="nextB" onclick="revealNext(7, 2)">I should just throw in the towel...</button>
+	</div>
+	<div id="s7">
+		<p>It's even possible that your still a llama from the second task and you have now obliterated your own kind.</p>
+		<button id="nextB" onclick="revealNext(8, 2)">Can I get any worse...</button>
+	</div>
+	<div id="s8">
+		<p>Nevertheless, young Gamer, you will be missed.</p>
+		<button id="nextB1" onclick="toEnd()">Wow, I'll miss you too, O Great GameMaster...</button>
+	</div>
+</body>
+</html>

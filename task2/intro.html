@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>It's Game Time!</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script type="text/javascript" src="enemyscript.js"></script>
+	<link rel='stylesheet' type='text/css' href='../stylesheet.css'/>
+</head>
+<body>
+	<div id="s1">
+		<p>Oh no! It looks like some enemies invaded while you were training!</p>
+		<button id="nextB" onclick="revealNext(2)">Wow I'm SO worried...</button>
+	</div>
+	<div id="s2">
+		<p>Well. You should be. Because it looks like they've turned you into a llama!</p>
+		<button id="nextB" onclick="revealNext(3)">Oh yeah, seems totally plausible.</button>
+	</div>
+	<div id="s3">
+	<p>Capture the invaders before time runs out or you'll be a llama forever!</p>
+	<button id="nextB" onclick="toNextGame()">But llamas are almighty...</button>
+</div>
+</body>
+</html>
